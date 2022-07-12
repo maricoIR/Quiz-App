@@ -11,6 +11,9 @@
             "@/images/*": [
                 "/src/assets/images/*"
             ],
+            "@/data/*": [
+                "/src/data/*"
+            ],
         }
     }
 }
