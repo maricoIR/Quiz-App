@@ -1,5 +1,6 @@
 import Image from "next/image";
 import background from "@/images/bg.jpg";
+import { GlobeOutline, LogoGithub } from "react-ionicons";
 
 const Result = (props) => {
   const reset = () => {
@@ -11,6 +12,20 @@ const Result = (props) => {
   return (
     <div className="w-[670px] bg-white rounded-[10px] pb-5">
       <div className="w-full flex items-center justify-center relative rounded-[10px]">
+        <div className="absolute top-5 left-5 z-[10] flex items-center gap-3">
+          <LogoGithub
+            color={"#fff"}
+            width="25px"
+            height="25px"
+            cssClasses="cursor-pointer"
+          />
+          <GlobeOutline
+            color={"#fff"}
+            width="25px"
+            height="25px"
+            cssClasses="cursor-pointer"
+          />
+        </div>
         <span className="text-3xl text-white font-medium absolute left-1/2 bottom-1/2 translate-x-[-50%] translate-y-[50%] z-[50]">
           Quiz App
         </span>
