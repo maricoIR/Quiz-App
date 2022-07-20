@@ -37,7 +37,7 @@ const Result = (props) => {
       </div>
       <div className="w-full flex flex-col items-center gap-5 justify-center mt-5 mb-10">
         <span className="font-medium text-3xl text-slate-700">
-          {props.score} / 10
+          {props.score} / 7
         </span>
         <span className="font-medium text-[17px] text-slate-700">
           You have earned{" "}
@@ -45,7 +45,7 @@ const Result = (props) => {
             {props.score}{" "}
           </span>
           points of total{" "}
-          <span className="font-medium text-[17px] text-blue-600">10 </span>
+          <span className="font-medium text-[17px] text-blue-600">7 </span>
           points.
         </span>
       </div>
