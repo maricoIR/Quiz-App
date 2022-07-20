@@ -49,7 +49,11 @@ const Quiz = (props) => {
     <div className="w-[670px] bg-white rounded-[10px] pb-5">
       <div className="w-full flex items-center justify-center relative rounded-[10px]">
         <div className="absolute top-5 left-5 z-[10] flex items-center gap-3">
-          <a href="https://github.com/maricoIR" target="_blank">
+          <a
+            href="https://github.com/maricoIR"
+            target="_blank"
+            rel="noreferrer"
+          >
             <LogoGithub
               color={"#fff"}
               width="25px"
@@ -57,7 +61,11 @@ const Quiz = (props) => {
               cssClasses="cursor-pointer"
             />
           </a>
-          <a href="https://matinkahrizi.vercel.app/" target="_blank">
+          <a
+            href="https://matinkahrizi.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GlobeOutline
               color={"#fff"}
               width="25px"
