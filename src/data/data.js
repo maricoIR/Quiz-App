@@ -67,7 +67,7 @@ export const data = [
   },
   {
     id: 6,
-    title: "What are Google Chrome, Safari, Firefox, and Explorer ?",
+    title: "What are Google Chrome and Firefox ?",
     options: [
       { title: "Operation systems", id: 1, questionId: 6 },
       { title: "Web browsers", id: 2, questionId: 6 },
