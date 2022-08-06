@@ -80,6 +80,7 @@ const Quiz = (props) => {
         <Image
           src={background}
           className="w-full rounded-tr-[10px] rounded-tl-[10px]"
+          alt="Quiz App"
         />
         <div className="w-full h-full absolute bg-overlay rounded-tr-[10px] rounded-tl-[10px]"></div>
       </div>
